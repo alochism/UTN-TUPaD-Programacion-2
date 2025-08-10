@@ -4,7 +4,7 @@ los muestre en pantalla. Usa Scanner para capturar los datos.
 */
 
 
-package Ejercicios;
+package _01_Introduccion_a_Java;
 import java.util.Scanner;
 
 public class Ejercicio4 {

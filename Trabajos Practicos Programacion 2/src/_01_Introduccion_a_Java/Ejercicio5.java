@@ -8,7 +8,7 @@ Muestra los resultados en la consola.
 */
 
 
-package javaapp1;
+package _01_Introduccion_a_Java;
 import java.util.Scanner;
 
 public class Ejercicio5 {

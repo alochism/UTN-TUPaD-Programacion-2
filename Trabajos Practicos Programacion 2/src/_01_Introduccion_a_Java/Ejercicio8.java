@@ -5,7 +5,7 @@ b. Modifica el código para usar double en lugar de int y compara los resultados
  */
 
 
-package Ejercicios;
+package _01_Introduccion_a_Java;
 
 //Importo Scanner ya que se necesita para poder leer lo ingresado por el usuario
         

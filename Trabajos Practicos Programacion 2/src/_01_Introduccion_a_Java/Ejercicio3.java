@@ -8,7 +8,7 @@ Imprime los valores en pantalla usando System.out.println().
 */
 
 
-package Ejercicios;
+package _01_Introduccion_a_Java;
 
 public class Ejercicio3 {
         public static void main(String [] args) {

@@ -7,7 +7,7 @@ Usa caracteres de escape (\n, \") en System.out.println().
  */
 
 
-package javaapp1;
+package _01_Introduccion_a_Java;
 
 public class Ejercicio6 {
     public static void main(String [] args){

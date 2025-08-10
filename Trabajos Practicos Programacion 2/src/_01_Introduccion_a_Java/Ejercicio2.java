@@ -7,7 +7,7 @@ c. Ejecuta el programa en NetBeans y adjunta una captura del resultado en la con
 */
 
 
-package Ejercicios;
+package _01_Introduccion_a_Java;
 
 
 public class Ejercicio2 {
