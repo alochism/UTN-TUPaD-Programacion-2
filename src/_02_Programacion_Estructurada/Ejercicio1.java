@@ -8,10 +8,6 @@ package _02_Programacion_Estructurada;
 //Importo la librería Scanner 
 import java.util.Scanner;
 
-/**
- *
- * @author Matias
- */
 public class Ejercicio1 {
     
     public static void main(String [] args) {
