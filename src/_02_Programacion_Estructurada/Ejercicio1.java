@@ -9,41 +9,40 @@ package _02_Programacion_Estructurada;
 import java.util.Scanner;
 
 public class Ejercicio1 {
-    
-    public static void main(String [] args) {
-        
+
+    public static void main(String[] args) {
+
         // Defino el objeto tipo Scanner
-        Scanner input = new Scanner (System.in);
-        
+        Scanner input = new Scanner(System.in);
+
         // Defino la variable anio de tipo integer
         int anio;
-        
+
         //Solicito por consola que se ingrese un año
         System.out.println("Ingrese un año: ");
-        
+
         // La variable año se debe leer de lo ingresado por consola
         anio = input.nextInt();
-        
+
         // Uso el método numBisiesto en el main
-        if (numBisiesto(anio)){ 
+        if (numBisiesto(anio)) {
             System.out.println("El número " + anio + " es bisiesto");
-            
+
         } else {
             System.out.println("El número " + anio + " NO es bisiesto");
         }
     }
-    
+
     // Creo un método que calcule si un número ingresado es bisiesto
-    public static boolean numBisiesto(int anio){
-            
-        if ((anio % 4 == 0) && (anio % 100 != 0 || anio % 400 == 0)){
+    public static boolean numBisiesto(int anio) {
+
+        if ((anio % 4 == 0) && (anio % 100 != 0 || anio % 400 == 0)) {
             return true;
-        }
-        else {
-                return false;
+        } else {
+            return false;
         }
     }
 }
 // Pueba de commit
-    
+
 
