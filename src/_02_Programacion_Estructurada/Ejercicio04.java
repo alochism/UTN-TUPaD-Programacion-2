@@ -1,17 +1,19 @@
 /*
- 4. Calculadora de Descuento según categoría.
+
+4. Calculadora de Descuento según categoría.
 Escribe un programa que solicite al usuario el precio de un producto y su categoría (A, B o C).
 Luego, aplique los siguientes descuentos:
 Categoría A: 10% de descuento
 Categoría B: 15% de descuento
 Categoría C: 20% de descuento
 El programa debe mostrar el precio original, el descuento aplicado y el precio final
+
  */
 package _02_Programacion_Estructurada;
 
 import java.util.Scanner;
 
-public class Ejercicio4 {
+public class Ejercicio04 {
     
     public static void main(String [] args){
         

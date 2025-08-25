@@ -1,5 +1,6 @@
 /*
- 6. Contador de Positivos, Negativos y Ceros (for).
+
+6. Contador de Positivos, Negativos y Ceros (for).
 Escribe un programa que pida al usuario ingresar 10 números enteros y cuente cuántos son positivos, 
 negativos y cuántos son ceros.
 Ejemplo de entrada/salida:
@@ -17,13 +18,14 @@ Resultados:
 Positivos: 4
 Negativos: 4
 Ceros: 2
+
  */
 
 package _02_Programacion_Estructurada;
 
 import java.util.Scanner;
 
-public class Ejercicio6 {
+public class Ejercicio06 {
 
     public static void main(String[] args) {
 

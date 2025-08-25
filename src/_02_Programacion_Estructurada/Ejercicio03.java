@@ -1,16 +1,18 @@
 /*
- 3. Clasificación de Edad.
+
+3. Clasificación de Edad.
 Escribe un programa en Java que solicite al usuario su edad y clasifique su etapa de vida según la siguiente tabla:
 Menor de 12 años: "Niño"
 Entre 12 y 17 años: "Adolescente"
 Entre 18 y 59 años: "Adulto"
 60 años o más: "Adulto mayor"
+
  */
 package _02_Programacion_Estructurada;
 
 import java.util.Scanner;
 
-public class Ejercicio3 {
+public class Ejercicio03 {
         public static void main(String [] args){
             
             Scanner input = new Scanner (System.in);
