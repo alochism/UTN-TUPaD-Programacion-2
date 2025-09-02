@@ -66,7 +66,7 @@ public class Ejercicio04 {
         
         System.out.println("Valor original: " + precio);
         System.out.println("Descuento aplicado: " + descuento);
-        System.out.print("Valor con descuento: " + valorfinal);
+        System.out.println("Valor con descuento: " + valorfinal);
     }
 }
 

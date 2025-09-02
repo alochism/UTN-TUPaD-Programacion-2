@@ -28,10 +28,10 @@ public class Ejercicio01 {
 
         // Uso el método numBisiesto en el main
         if (numBisiesto(anio)) {
-            System.out.println("El número " + anio + " es bisiesto");
+            System.out.println("El año " + anio + " es bisiesto");
 
         } else {
-            System.out.println("El número " + anio + " NO es bisiesto");
+            System.out.println("El año " + anio + " NO es bisiesto");
         }
     }
 
