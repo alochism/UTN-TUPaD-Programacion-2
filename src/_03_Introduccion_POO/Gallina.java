@@ -48,12 +48,12 @@ public class Gallina {
         }
     }
 
-    // Aumenta la edad en 1 año
+    // Aumenta la edad en 1 año, cada vez que se usa el método suma un año, no recibe argumentos
     public void envejecer() {
         edad += 1;
     }
 
-    // Suma un huevo puesto
+    // Suma un huevo puesto, cada vez que se usa el métdodo suma un huevo, no recibe argumentos 
     public void ponerHuevo() {
         huevosPuestos += 1;
     }

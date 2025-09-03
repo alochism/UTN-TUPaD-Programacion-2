@@ -5,18 +5,19 @@ a. Crear una clase Gallina con los atributos: idGallina, edad, huevosPuestos.
 Métodos requeridos: ponerHuevo(), envejecer(), mostrarEstado().
 Tarea: Crear dos gallinas, simular sus acciones (envejecer y poner huevos), y mostrar su estado.
 
-*/
+ */
 package _03_Introduccion_POO;
 
 public class Ejercicio04 {
 
     public static void main(String[] args) {
-        
+
         // Instancio las dos gallinas
         Gallina g1 = new Gallina();
         Gallina g2 = new Gallina();
 
         // Muestro estado inicial
+        System.out.println("Valores iniciales:");
         g1.mostrarEstado();
         g2.mostrarEstado();
 
@@ -30,6 +31,7 @@ public class Ejercicio04 {
         g2.setHuevosPuestos(0);
 
         // Muestro estado luego de setear
+        System.out.println("\nValores seteados:");
         g1.mostrarEstado();
         g2.mostrarEstado();
 
@@ -42,6 +44,7 @@ public class Ejercicio04 {
         g2.ponerHuevo();
 
         // Estado final
+        System.out.println("\nValores finales:");
         g1.mostrarEstado();
         g2.mostrarEstado();
     }
