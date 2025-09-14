@@ -4,7 +4,7 @@ public class Clase_de_Prueba {
 
     public static void main(String[] args) {
 
-        // Instancio varios usando CONSTRUCTOR1
+        // Instancio empleados usando CONSTRUCTOR1
         Empleado emp1 = new Empleado(101, "Juan Domingo", "Programador Junior", 200000);
         Empleado emp2 = new Empleado(112, "Juan Sábado", "Programador Senior", 400000);
         Empleado emp3 = new Empleado(431, "Juan Lunes", "Team Leader", 600000);
@@ -16,7 +16,7 @@ public class Clase_de_Prueba {
         
         System.out.println("El total de empleados es: " + Empleado.mostrarTotalEmpleados());
 
-        // Instancio varios usando CONSTRUCTOR2
+        // Instancio empleados usando CONSTRUCTOR2
         Empleado emp4 = new Empleado("Juan Martes", "Debugger");
         Empleado emp5 = new Empleado("Juan Miércoles", "RRHH");
         Empleado emp6 = new Empleado("Juan Jueves", "Scrum Leader");

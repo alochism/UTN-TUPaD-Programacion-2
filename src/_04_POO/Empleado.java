@@ -20,11 +20,12 @@ public class Empleado {
     private String nombre; //Nombre complet
     private String puesto; //Cargo que desempeña.
     private double salario; //Salario actual.
+   
 
     // Atributo de clase
-    private static int totalEmpleados = 0;  //Contador global de empleados creados.
-
-    // CONTADOR de empleados
+    private static int totalEmpleados = 0;  //Contador de empleados creados.
+    private static final int SALARIO_BASE = 500000;
+    // CONTADOR de id
     private static int siguienteId = 100;
 
     // CONSTRUCTOR 1 Recibe todos los atributos como parámetros e incrementa la cantidad de Empleados
@@ -42,7 +43,7 @@ public class Empleado {
     // CONSTRUCTOR 2 Recibe solo nombre y puesto, asigna id automáticos y salario por defecto. Incrementa # Empleados
     public Empleado(String nombre, String puesto) {
         totalEmpleados++;
-        this.salario = 500000;
+        this.salario = SALARIO_BASE;
         this.nombre = nombre;
         this.puesto = puesto;
         this.id = siguienteId++;
