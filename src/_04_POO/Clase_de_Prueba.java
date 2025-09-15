@@ -17,7 +17,7 @@ public class Clase_de_Prueba {
         System.out.println("El total de empleados es: " + Empleado.mostrarTotalEmpleados());
 
         // Instancio empleados usando CONSTRUCTOR2
-        Empleado emp4 = new Empleado("Juan Martes", "Debugger");
+        Empleado emp4 = new Empleado("Juan Martes", "QA Tester");
         Empleado emp5 = new Empleado("Juan Miércoles", "RRHH");
         Empleado emp6 = new Empleado("Juan Jueves", "Scrum Leader");
         
