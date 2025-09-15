@@ -1,5 +1,5 @@
 
-package _05_UML_Basico;
+package _05_UML_Basico.Ejercicio01;
 
 public class Foto {
 

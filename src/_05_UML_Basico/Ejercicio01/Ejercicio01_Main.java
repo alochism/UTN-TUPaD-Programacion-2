@@ -9,7 +9,7 @@ ii. Foto: imagen, formato
 iii. Titular: nombre, dni
  
  */
-package _05_UML_Basico;
+package _05_UML_Basico.Ejercicio01;
 
 public class Ejercicio01_Main {
 
