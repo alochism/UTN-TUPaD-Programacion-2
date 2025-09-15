@@ -11,7 +11,7 @@ iii. Titular: nombre, dni
  */
 package _05_UML_Basico;
 
-public class Ejercicio01 {
+public class Ejercicio01_Main {
 
     public static void main(String[] args) {
         // Pasaporte crea su propia Foto internamente
