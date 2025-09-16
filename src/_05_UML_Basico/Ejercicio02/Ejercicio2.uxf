@@ -1,0 +1,29 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>10</x><y>10</y><w>210</w><h>130</h></coordinates><panel_attributes>Celular
+--
+- imei: int
+- marca: String
+- modelo: String
+- batería: Bateria
+- usuario: Usuario
+--
++ Celular(int, String, String, Bateria)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>10</y><w>210</w><h>80</h></coordinates><panel_attributes>Bateria
+--
+- modelo: String
+- capacidad: double
+--
++ Bateria(String, double)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>230</y><w>210</w><h>90</h></coordinates><panel_attributes>Usuario
+--
+- nombre: String
+- dni: String
+- celular: Celular
+--
++ Usuario(String, String)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>110</x><y>130</y><w>120</w><h>120</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1
+usuario / celular</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>30</y><w>200</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m2=1
+m1=1
+bateria</panel_attributes><additional_attributes>10;20;180;20</additional_attributes></element></diagram>

@@ -1,0 +1,31 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>10</x><y>10</y><w>260</w><h>150</h></coordinates><panel_attributes>Reserva
+--
+- fecha: String
+- hora: String
+- cliente: Cliente
+- mesa: Mesa
+--
++ Reserva(String, String, Mesa)
++ setCliente(Cliente): void
++ mostrarDetalle(): void
++ toString(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>10</y><w>240</w><h>100</h></coordinates><panel_attributes>Mesa
+--
+- numero: int
+- capacidad: int
+--
++ Mesa(int, int)
++ toString(): String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>260</y><w>240</w><h>100</h></coordinates><panel_attributes>Cliente
+--
+- nombre: String
+- telefono: String
+--
++ Cliente(String, String)
++ toString(): String
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>150</y><w>70</w><h>130</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+cliente</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>50</y><w>230</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m2=1
+m1=1
+mesa
+</panel_attributes><additional_attributes>10;20;210;20</additional_attributes></element></diagram>
